@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Medora Clinic | Quality Healthcare in Cairo</title>
+  <meta name="description" content="Medora Clinic provides compassionate, professional healthcare in Cairo. Book appointments with experienced specialists in cardiology, pediatrics, dermatology, dental care, and more." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Medora Clinic | Quality Healthcare in Cairo" />
+  <meta property="og:description" content="Professional healthcare with compassionate doctors, flexible appointments, and a patient-first experience." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.pexels.com/photos/6749765/pexels-photo-6749765.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230F766E'/%3E%3Cpath d='M16 7v18M7 16h18' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E" />
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <nav class="navbar navbar-expand-lg navbar-custom sticky-top" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand-custom" href="index.html">
+        <span class="brand-icon"><i class="bi bi-heart-pulse-fill"></i></span>
+        <span class="brand-text">Medora</span>
+      </a>
+      <button class="navbar-toggler navbar-toggler-custom" type="button" data-bs-toggle="collapse" data-bs-target="#navCollapse" aria-controls="navCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navCollapse">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link nav-link-custom" data-page="index.html" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" data-page="about.html" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" data-page="services.html" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" data-page="doctor.html" href="doctor.html">Doctor</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" data-page="appointment.html" href="appointment.html">Appointment</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" data-page="contact.html" href="contact.html">Contact</a></li>
+        </ul>
+        <a href="appointment.html" class="btn-med-primary">Book Appointment</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <span class="hero-badge">
+            <i class="bi bi-shield-check"></i> Trusted Healthcare, Close to You
+          </span>
+          <h1 class="hero-headline">Your Health Deserves<br><span class="accent-word">Better Care.</span></h1>
+          <p class="hero-text">Professional healthcare with compassionate doctors, flexible appointments, and a patient-first experience.</p>
+          <div class="hero-cta-group">
+            <a href="appointment.html" class="btn-med-primary btn-med-lg">Book an Appointment <i class="bi bi-arrow-right ms-1"></i></a>
+            <a href="services.html" class="btn-med-secondary btn-med-lg">Explore Services</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="hero-image-wrap">
+            <img src="https://images.pexels.com/photos/6749765/pexels-photo-6749765.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Friendly female doctor smiling in a bright modern clinic" loading="eager" />
+            <div class="hero-floating-card top-card">
+              <div class="card-icon star"><i class="bi bi-star-fill"></i></div>
+              <div>
+                <div class="card-value">4.9/5</div>
+                <div class="card-label">Patient Rating</div>
+              </div>
+            </div>
+            <div class="hero-floating-card bottom-card">
+              <div class="card-icon patients"><i class="bi bi-people-fill"></i></div>
+              <div>
+                <div class="card-value">10K+</div>
+                <div class="card-label">Happy Patients</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Stats ===== -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-6 col-lg-3 fade-up">
+          <div class="stat-item">
+            <div class="stat-icon"><i class="bi bi-calendar2-check"></i></div>
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Years of Experience</div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 fade-up">
+          <div class="stat-item">
+            <div class="stat-icon"><i class="bi bi-person-badge"></i></div>
+            <div class="stat-number">15+</div>
+            <div class="stat-label">Medical Specialists</div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 fade-up">
+          <div class="stat-item">
+            <div class="stat-icon"><i class="bi bi-emoji-smile"></i></div>
+            <div class="stat-number">10K+</div>
+            <div class="stat-label">Happy Patients</div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 fade-up">
+          <div class="stat-item">
+            <div class="stat-icon"><i class="bi bi-heart-fill"></i></div>
+            <div class="stat-number">98%</div>
+            <div class="stat-label">Patient Satisfaction</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Services ===== -->
+  <section class="section-padding bg-light-teal" id="services">
+    <div class="container">
+      <div class="text-center mb-5 fade-up">
+        <span class="section-badge"><i class="bi bi-grid"></i> Our Services</span>
+        <h2 class="section-title">Healthcare Services You Can Trust</h2>
+        <p class="section-subtitle">Comprehensive care designed around your health and comfort.</p>
+      </div>
+      <div class="row g-4">
+        <!-- Service 1 -->
+        <div class="col-md-6 col-lg-4 fade-up">
+          <div class="service-card">
+            <div class="service-icon"><i class="bi bi-clipboard2-pulse"></i></div>
+            <h3>General Consultation</h3>
+            <p>Routine check-ups and medical advice from experienced general practitioners for all ages.</p>
+            <a href="services.html" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <!-- Service 2 -->
+        <div class="col-md-6 col-lg-4 fade-up">
+          <div class="service-card">
+            <div class="service-icon"><i class="bi bi-emoji-laughing"></i></div>
+            <h3>Dental Care</h3>
+            <p>Complete dental services from cleaning and checkups to advanced cosmetic procedures.</p>
+            <a href="services.html" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <!-- Service 3 -->
+        <div class="col-md-6 col-lg-4 fade-up">
+          <div class="service-card">
+            <div class="service-icon"><i class="bi bi-baby"></i></div>
+            <h3>Pediatrics</h3>
+            <p>Specialized care for infants and children, including vaccinations and growth monitoring.</p>
+            <a href="services.html" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <!-- Service 4 -->
+        <div class="col-md-6 col-lg-4 fade-up">
+          <div class="service-card">
+            <div class="service-icon"><i class="bi bi-heart-pulse"></i></div>
+            <h3>Cardiology</h3>
+            <p>Heart health assessments, ECG, and specialized care from our expert cardiologists.</p>
+            <a href="services.html" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <!-- Service 5 -->
+        <div class="col-md-6 col-lg-4 fade-up">
+          <div class="service-card">
+            <div class="service-icon"><i class="bi bi-bandaid"></i></div>
+            <h3>Dermatology</h3>
+            <p>Skin, hair, and nail treatments for medical and cosmetic concerns by specialists.</p>
+            <a href="services.html" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <!-- Service 6 -->
+        <div class="col-md-6 col-lg-4 fade-up">
+          <div class="service-card">
+            <div class="service-icon"><i class="bi bi-clipboard2-check"></i></div>
+            <h3>Health Checkups</h3>
+            <p>Comprehensive health screening packages to keep you informed about your wellbeing.</p>
+            <a href="services.html" class="service-link">Learn More <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Why Choose Us ===== -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6 fade-up">
+          <div class="hero-image-wrap" style="border-radius: var(--med-radius-lg); box-shadow: var(--med-shadow-lg);">
+            <img src="https://images.pexels.com/photos/7659869/pexels-photo-7659869.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Doctor consulting with a patient during a medical appointment" style="border-radius: var(--med-radius-lg);" />
+          </div>
+        </div>
+        <div class="col-lg-6 fade-up">
+          <span class="section-badge"><i class="bi bi-award"></i> Why Medora</span>
+          <h2 class="section-title mb-3">Why Patients Choose Medora</h2>
+          <p class="mb-4">We combine medical expertise with genuine care to deliver a healthcare experience that puts you first — every step of the way.</p>
+          <div class="feature-item">
+            <div class="feature-icon"><i class="bi bi-people"></i></div>
+            <div>
+              <h4>Experienced Medical Team</h4>
+              <p>Board-certified specialists with years of clinical expertise.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon"><i class="bi bi-calendar2-check"></i></div>
+            <div>
+              <h4>Easy Appointment Booking</h4>
+              <p>Book online in minutes — choose your doctor, date, and time.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon"><i class="bi bi-building"></i></div>
+            <div>
+              <h4>Modern Medical Facilities</h4>
+              <p>State-of-the-art equipment in a clean, comfortable environment.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon"><i class="bi bi-heart"></i></div>
+            <div>
+              <h4>Patient-Centered Care</h4>
+              <p>Every decision is made with your comfort and wellbeing in mind.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== How It Works ===== -->
+  <section class="section-padding how-it-works">
+    <div class="container">
+      <div class="text-center mb-5 fade-up">
+        <span class="section-badge"><i class="bi bi-diagram-3"></i> How It Works</span>
+        <h2 class="section-title">Book Your Appointment in 3 Simple Steps</h2>
+      </div>
+      <div class="row g-4 position-relative">
+        <div class="col-md-4 fade-up">
+          <div class="step-card">
+            <div class="step-number">01</div>
+            <h4>Choose a Service</h4>
+            <p>Select the medical service that fits your needs from our range of specialties.</p>
+          </div>
+        </div>
+        <div class="col-md-4 fade-up">
+          <div class="step-card">
+            <div class="step-number">02</div>
+            <h4>Select Date &amp; Time</h4>
+            <p>Pick a convenient date and time slot that works with your schedule.</p>
+          </div>
+        </div>
+        <div class="col-md-4 fade-up">
+          <div class="step-card">
+            <div class="step-number">03</div>
+            <h4>Meet Your Doctor</h4>
+            <p>Visit the clinic and receive expert care from your chosen specialist.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Doctor Preview ===== -->
+  <section class="section-padding" id="doctors">
+    <div class="container">
+      <div class="text-center mb-5 fade-up">
+        <span class="section-badge"><i class="bi bi-person-vcard"></i> Our Team</span>
+        <h2 class="section-title">Meet Our Specialists</h2>
+        <p class="section-subtitle">Dedicated professionals committed to your health and wellbeing.</p>
+      </div>
+      <div class="row g-4">
+        <!-- Doctor 1 -->
+        <div class="col-md-6 col-lg-4 fade-up">
+          <div class="doctor-card">
+            <img src="https://images.pexels.com/photos/8459997/pexels-photo-8459997.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="doctor-image" alt="Dr. Sarah Ahmed, Cardiologist" />
+            <div class="doctor-body">
+              <h3>Dr. Sarah Ahmed</h3>
+              <div class="doctor-specialty">Cardiologist</div>
+              <div class="doctor-meta">
+                <div class="meta-item"><strong>12 Years</strong>Experience</div>
+                <div class="meta-item text-end"><strong>4.9 <i class="bi bi-star-fill rating-stars"></i></strong>Rating</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Doctor 2 -->
+        <div class="col-md-6 col-lg-4 fade-up">
+          <div class="doctor-card">
+            <img src="https://images.pexels.com/photos/6762866/pexels-photo-6762866.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="doctor-image" alt="Dr. Omar Hassan, Dermatologist" />
+            <div class="doctor-body">
+              <h3>Dr. Omar Hassan</h3>
+              <div class="doctor-specialty">Dermatologist</div>
+              <div class="doctor-meta">
+                <div class="meta-item"><strong>9 Years</strong>Experience</div>
+                <div class="meta-item text-end"><strong>4.8 <i class="bi bi-star-fill rating-stars"></i></strong>Rating</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Doctor 3 -->
+        <div class="col-md-6 col-lg-4 fade-up">
+          <div class="doctor-card">
+            <img src="https://images.pexels.com/photos/5234519/pexels-photo-5234519.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="doctor-image" alt="Dr. Lina Adel, Pediatrician" />
+            <div class="doctor-body">
+              <h3>Dr. Lina Adel</h3>
+              <div class="doctor-specialty">Pediatrician</div>
+              <div class="doctor-meta">
+                <div class="meta-item"><strong>8 Years</strong>Experience</div>
+                <div class="meta-item text-end"><strong>4.9 <i class="bi bi-star-fill rating-stars"></i></strong>Rating</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-5 fade-up">
+        <a href="doctor.html" class="btn-med-secondary btn-med-lg">View All Doctors <i class="bi bi-arrow-right ms-1"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Testimonials ===== -->
+  <section class="section-padding bg-light-teal">
+    <div class="container">
+      <div class="text-center mb-5 fade-up">
+        <span class="section-badge"><i class="bi bi-chat-quote"></i> Testimonials</span>
+        <h2 class="section-title">What Our Patients Say</h2>
+        <p class="section-subtitle">Real experiences from the people who trust us with their health.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4 fade-up">
+          <div class="testimonial-card">
+            <div class="quote-icon"><i class="bi bi-quote"></i></div>
+            <p class="testimonial-text">"Booking was incredibly easy and the staff were very helpful. The whole process took less than five minutes."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">M</div>
+              <div>
+                <div class="author-name">Mohamed</div>
+                <div class="author-role">Patient</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 fade-up">
+          <div class="testimonial-card">
+            <div class="quote-icon"><i class="bi bi-quote"></i></div>
+            <p class="testimonial-text">"Dr. Sarah was professional, patient, and explained everything clearly. I felt comfortable throughout the visit."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">F</div>
+              <div>
+                <div class="author-name">Fatma</div>
+                <div class="author-role">Patient</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 fade-up">
+          <div class="testimonial-card">
+            <div class="quote-icon"><i class="bi bi-quote"></i></div>
+            <p class="testimonial-text">"The clinic is clean, modern, and very welcoming. I never have to wait long and the care is excellent."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">A</div>
+              <div>
+                <div class="author-name">Ahmed</div>
+                <div class="author-role">Patient</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Final CTA ===== -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="cta-section fade-up">
+        <h2>Ready to Take Care of Your Health?</h2>
+        <p>Book your appointment today and take the first step toward better healthcare.</p>
+        <a href="appointment.html" class="btn-cta-white">Book an Appointment <i class="bi bi-arrow-right ms-1"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <div class="footer-brand">
+            <span class="brand-icon"><i class="bi bi-heart-pulse-fill"></i></span>
+            Medora Clinic
+          </div>
+          <p>Compassionate care. Better health. We are committed to providing quality healthcare with a patient-first approach.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h5>Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="doctor.html">Doctors</a></li>
+            <li><a href="appointment.html">Appointment</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h5>Services</h5>
+          <ul class="footer-links">
+            <li><a href="services.html">General Consultation</a></li>
+            <li><a href="services.html">Dental Care</a></li>
+            <li><a href="services.html">Pediatrics</a></li>
+            <li><a href="services.html">Cardiology</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h5>Contact</h5>
+          <div class="footer-contact-item"><i class="bi bi-geo-alt"></i> Cairo, Egypt</div>
+          <div class="footer-contact-item"><i class="bi bi-telephone"></i> +20 100 123 4567</div>
+          <div class="footer-contact-item"><i class="bi bi-envelope"></i> hello@medoraclinic.com</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">&copy; <span id="currentYear">2026</span> Medora Clinic. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>
